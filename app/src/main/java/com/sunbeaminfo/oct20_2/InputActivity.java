@@ -27,7 +27,7 @@ public class InputActivity extends AppCompatActivity {
 
     public void save(View v) {
         if (editName.getText().toString().length() == 0) {
-            Toast.makeText(this, "Enter name", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please Enter name", Toast.LENGTH_SHORT).show();
         } else if (editEmail.getText().toString().length() == 0) {
             Toast.makeText(this, "Enter email", Toast.LENGTH_SHORT).show();
         } else if (editAge.getText().toString().length() == 0) {
